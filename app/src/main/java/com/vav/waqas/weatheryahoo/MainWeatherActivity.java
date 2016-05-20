@@ -95,7 +95,7 @@ public class MainWeatherActivity extends AppCompatActivity implements WeatherSer
                         String locationString = locationStringInput.getText().toString();
                         String typeString = typeStringInput.getText().toString();
                         if (locationString.isEmpty() || typeString.isEmpty()) {
-
+//change
                             Toast.makeText(getApplicationContext(), "Enter Place and Type", Toast.LENGTH_SHORT).show();
                         } else {
                             yahooWeatherService = new YahooWeatherService(MainWeatherActivity.this);
